@@ -1,0 +1,126 @@
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+text-decoration: none;
+}
+
+/* body{
+background-image: url(Imagens/Home/fundo\ de\ tela.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+} */
+
+body{
+background-color: rgb(242,246, 248);
+}
+#logo{
+    color: rgb(0,85,166)
+
+}
+
+.cabecalho {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content:space-around ;
+padding: 12px;
+border-bottom: solid rgb(96,182,197);
+border-width: 1px;
+font-weight: 600px;
+font-size: 16px;
+}
+
+.menu{
+display: flex;
+gap: 30px;
+
+}
+
+.menu-item{
+    font-family: 'Montserrat' 'Poppins', sans-serif;
+    color: rgb(0,85,166);
+}
+
+a:hover{
+    text-decoration: underline rgb(37,172,155);
+}
+
+#titulo{
+    color: rgb(252, 109, 120);
+    text-align: center;
+}
+
+.texto{
+    padding: 5px;
+    background-color:rgb(228,246,271);
+    border-radius: 2%;
+    font-family: 'Montserrat' 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    text-align: justify;
+    margin: 10px;
+    color:  rgb(0,85,166) ;
+}
+
+#subtitulo{
+    color: rgb(252, 109, 120);
+    text-align: center;
+    height: 60px;
+}
+
+.section1{
+    border-bottom: solid rgb(228,246,271);
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    margin:20px ;
+}
+
+.participantes{
+    display: flex;
+    justify-content: space-around ;
+}
+
+.ident{
+    display: flex;
+
+}
+
+.descricao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:rgb(228,246,271); 
+    border-radius: 5%;
+    margin: 5px;
+    padding: 10px;
+    font-family: 'Montserrat';
+    color:  rgb(0,85,166);
+}
+
+
+.imagem {
+width: 220px;
+height: 220px;
+border-radius: 5%;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    border-radius: 5%;
+    }
+
+.rodape{
+    display: flex;
+    justify-content: center;   
+}
+
+.imagemrodape {
+    height: 90px;
+
+}
+
+
